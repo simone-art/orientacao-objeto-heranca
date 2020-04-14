@@ -29,28 +29,29 @@ namespace ProgramaAlunoProfessor
             ClasseAluno.Materia = materiaAluno;
 
 
-            //Console.WriteLine(ClasseOriginal.Mostra(professor));
-            //Console.WriteLine(ClasseOriginal.Mostra(materiaProfessor));
-            //Console.WriteLine(ClasseOriginal.Mostra());
+     
             Console.WriteLine(ClasseOriginal.Mostra(mensagemProfessor));
-
-            //Console.WriteLine(ClasseAluno.Mostra());
-            //Console.WriteLine(ClasseAluno.Mostra(aluno));
-            //Console.WriteLine(ClasseAluno.Mostra(materiaAluno));
             Console.WriteLine(ClasseAluno.Mostra(mensagemAluno));
+            Console.WriteLine("==============================================");
+            Console.WriteLine("==============================================\n");
+            
 
 
-            var ClasseInterfazMateria = new List<string>();
-            ClasseInterfazMateria.Add("Arquitetura de software");
-            ClasseInterfazMateria.Add("Tecnología e Innovação");
-            ClasseInterfazMateria.Add("C Sharp");
-            ClasseInterfazMateria.Add("Multipotencialidade");
-            ClasseInterfazMateria.Add("Habilidades de organização e planificação");
-            ClasseInterfazMateria.Add("Produtividade");
 
-            foreach (var dato in ClasseInterfazMateria)
+            List<string> listaNomeMaterias = new List<string>();
+
+            Console.WriteLine("=============Lista de Materias===============");
+            listaNomeMaterias.Add("1. Arquitetura de software\n");
+            listaNomeMaterias.Add("2. Tecnología e Innovação\n");
+            listaNomeMaterias.Add("3. C Sharp\n");
+            listaNomeMaterias.Add("4. Multipotencialidade\n");
+            listaNomeMaterias.Add("5. Habilidades de organização e planificação\n");
+            listaNomeMaterias.Add("6. Produtividade\n");
+            Console.WriteLine("==============================================");
+
+            foreach (var dato in listaNomeMaterias)
             {
-                Console.WriteLine(ClasseInterfazMateria);
+                Console.WriteLine(dato.ToString());
             }
         }
     }

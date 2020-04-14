@@ -6,7 +6,7 @@ namespace ProgramaAlunoProfessor
 {
     class InterfazMateria
     {
-        public string NomeMateria;
+        public string NomeMateria { get; set;}
         
     }
 }
