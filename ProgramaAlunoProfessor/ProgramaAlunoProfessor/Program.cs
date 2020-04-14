@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ProgramaAlunoProfessor
 {
@@ -38,7 +39,20 @@ namespace ProgramaAlunoProfessor
             //Console.WriteLine(ClasseAluno.Mostra(materiaAluno));
             Console.WriteLine(ClasseAluno.Mostra(mensagemAluno));
 
-            
+
+            var ClasseInterfazMateria = new List<string>();
+            ClasseInterfazMateria.Add("Arquitetura de software");
+            ClasseInterfazMateria.Add("Tecnología e Innovação");
+            ClasseInterfazMateria.Add("C Sharp");
+            ClasseInterfazMateria.Add("Multipotencialidade");
+            ClasseInterfazMateria.Add("Habilidades de organização e planificação");
+            ClasseInterfazMateria.Add("Produtividade");
+
+            foreach (var dato in ClasseInterfazMateria)
+            {
+                Console.WriteLine(ClasseInterfazMateria);
+            }
         }
     }
 }
+
