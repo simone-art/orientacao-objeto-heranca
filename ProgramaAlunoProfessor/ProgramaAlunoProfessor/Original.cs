@@ -7,11 +7,10 @@ namespace ProgramaAlunoProfessor
     class Original
     {
 
-        public string Nome { get; set; }
         public string Materia { get; set; }
         public string Professor { get; set; }
 
-        public string Aluno { get; set; }
+       
 
 
 

@@ -22,16 +22,23 @@ namespace ProgramaAlunoProfessor
             var ClasseOriginal = new Original();
             var ClasseAluno = new Aluno();
 
-            ClasseOriginal.Nome = "professor";
-            ClasseOriginal.Materia = "materiaProfessor";
-            ClasseAluno.Nome = "aluno";
-            ClasseAluno.Materia = "materiaAluno";
+            ClasseOriginal.Professor = professor;
+            ClasseOriginal.Materia = materiaProfessor;
+            ClasseAluno.Nome = aluno;
+            ClasseAluno.Materia = materiaAluno;
 
-            Console.WriteLine(ClasseOriginal.Mostra());
+
+            //Console.WriteLine(ClasseOriginal.Mostra(professor));
+            //Console.WriteLine(ClasseOriginal.Mostra(materiaProfessor));
+            //Console.WriteLine(ClasseOriginal.Mostra());
             Console.WriteLine(ClasseOriginal.Mostra(mensagemProfessor));
 
-            Console.WriteLine(ClasseOriginal.Mostra());
+            //Console.WriteLine(ClasseAluno.Mostra());
+            //Console.WriteLine(ClasseAluno.Mostra(aluno));
+            //Console.WriteLine(ClasseAluno.Mostra(materiaAluno));
             Console.WriteLine(ClasseAluno.Mostra(mensagemAluno));
+
+            
         }
     }
 }

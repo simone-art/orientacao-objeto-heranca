@@ -1,0 +1,13 @@
+C:\Users\USER\Desktop\Csharp\Heranca\orientacao-objeto-heranca\ProgramaAlunoProfessor\ProgramaAlunoProfessor\bin\Debug\netcoreapp3.1\ProgramaAlunoProfessor.exe
+C:\Users\USER\Desktop\Csharp\Heranca\orientacao-objeto-heranca\ProgramaAlunoProfessor\ProgramaAlunoProfessor\bin\Debug\netcoreapp3.1\ProgramaAlunoProfessor.deps.json
+C:\Users\USER\Desktop\Csharp\Heranca\orientacao-objeto-heranca\ProgramaAlunoProfessor\ProgramaAlunoProfessor\bin\Debug\netcoreapp3.1\ProgramaAlunoProfessor.runtimeconfig.json
+C:\Users\USER\Desktop\Csharp\Heranca\orientacao-objeto-heranca\ProgramaAlunoProfessor\ProgramaAlunoProfessor\bin\Debug\netcoreapp3.1\ProgramaAlunoProfessor.runtimeconfig.dev.json
+C:\Users\USER\Desktop\Csharp\Heranca\orientacao-objeto-heranca\ProgramaAlunoProfessor\ProgramaAlunoProfessor\bin\Debug\netcoreapp3.1\ProgramaAlunoProfessor.dll
+C:\Users\USER\Desktop\Csharp\Heranca\orientacao-objeto-heranca\ProgramaAlunoProfessor\ProgramaAlunoProfessor\bin\Debug\netcoreapp3.1\ProgramaAlunoProfessor.pdb
+C:\Users\USER\Desktop\Csharp\Heranca\orientacao-objeto-heranca\ProgramaAlunoProfessor\ProgramaAlunoProfessor\obj\Debug\netcoreapp3.1\ProgramaAlunoProfessor.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\Csharp\Heranca\orientacao-objeto-heranca\ProgramaAlunoProfessor\ProgramaAlunoProfessor\obj\Debug\netcoreapp3.1\ProgramaAlunoProfessor.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Csharp\Heranca\orientacao-objeto-heranca\ProgramaAlunoProfessor\ProgramaAlunoProfessor\obj\Debug\netcoreapp3.1\ProgramaAlunoProfessor.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Csharp\Heranca\orientacao-objeto-heranca\ProgramaAlunoProfessor\ProgramaAlunoProfessor\obj\Debug\netcoreapp3.1\ProgramaAlunoProfessor.AssemblyInfo.cs
+C:\Users\USER\Desktop\Csharp\Heranca\orientacao-objeto-heranca\ProgramaAlunoProfessor\ProgramaAlunoProfessor\obj\Debug\netcoreapp3.1\ProgramaAlunoProfessor.dll
+C:\Users\USER\Desktop\Csharp\Heranca\orientacao-objeto-heranca\ProgramaAlunoProfessor\ProgramaAlunoProfessor\obj\Debug\netcoreapp3.1\ProgramaAlunoProfessor.pdb
+C:\Users\USER\Desktop\Csharp\Heranca\orientacao-objeto-heranca\ProgramaAlunoProfessor\ProgramaAlunoProfessor\obj\Debug\netcoreapp3.1\ProgramaAlunoProfessor.genruntimeconfig.cache
