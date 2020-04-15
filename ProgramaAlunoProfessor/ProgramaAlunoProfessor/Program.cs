@@ -29,12 +29,12 @@ namespace ProgramaAlunoProfessor
             ClasseAluno.Materia = materiaAluno;
 
 
-     
+
             Console.WriteLine(ClasseOriginal.Mostra(mensagemProfessor));
             Console.WriteLine(ClasseAluno.Mostra(mensagemAluno));
             Console.WriteLine("==============================================");
             Console.WriteLine("==============================================\n");
-            
+
 
 
 
@@ -46,14 +46,61 @@ namespace ProgramaAlunoProfessor
             listaNomeMaterias.Add("3. C Sharp\n");
             listaNomeMaterias.Add("4. Multipotencialidade\n");
             listaNomeMaterias.Add("5. Habilidades de organização e planificação\n");
-            listaNomeMaterias.Add("6. Produtividade\n");
+            listaNomeMaterias.Add("6. Soft Skills\n");
             Console.WriteLine("==============================================");
 
-            foreach (var dato in listaNomeMaterias)
-            {
-                Console.WriteLine(dato.ToString());
-            }
+            //foreach (var dato in listaNomeMaterias)
+            //{
+            //Console.WriteLine(dato.ToString());
+            //}
+
         }
+
+            interface IMateriaDeHumanas
+            {
+                string ClasificacaoMaterias();
+         
+            }
+
+        class Multipotencialidade : InterfazMateria, IMateriaDeHumanas
+        {
+            public string ClasificacaoMateria()
+            {
+             string Clasificacao = "Humanas";
+                return Clasificacao;
+
+            }
+
+        }
+
+        class Habilidades : InterfazMateria, IMateriaDeHumanas
+        {
+            public string ClasificacaoMateria()
+            {
+             string Clasificacao = "Humanas";
+                return Clasificacao;
+
+            }
+
+ 
+        }
+
+        class SoftKills : InterfazMateria, IMateriaDeHumanas
+        {
+            public string ClasificacaoMateria()
+            {
+                string Clasificacao = "Humanas";
+                return Clasificacao;
+
+            }
+
+
+        }
+
+
     }
+
 }
+
+
 
